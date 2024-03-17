@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
 
 /**
  * @ClassName: WorldCountBatchDome
- * @Desc: DataSet实现wordCount
+ * @Desc: DataSet实现wordCount(不推荐)
  * @Author: puchen
  * @Date: 2024/3/17 15:50
  * @Version: 1.0
