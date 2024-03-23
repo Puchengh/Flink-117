@@ -24,12 +24,11 @@ public class CustomSinkDome {
 
         env.setParallelism(2);
 
-        SingleOutputStreamOperator<WaterSensor> master = env.socketTextStream("master", 7777).map(new WaterSensorMapFunction());
+        SingleOutputStreamOperator<String> master = env.socketTextStream("master", 7777);
 
-        master.addSink(new SinkFunction<WaterSensor>() {
-        })
+        master.addSink(new MySink());
 
-                env.execute();
+        env.execute();
     }
 
     public static class MySink extends RichSinkFunction<String>{
