@@ -1,4 +1,4 @@
-package com.puchen.java.flink117.dome;
+package com.puchen.java.flink117.p0dome;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.ExecutionEnvironment;
