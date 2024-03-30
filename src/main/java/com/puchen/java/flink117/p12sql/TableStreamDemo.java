@@ -1,6 +1,7 @@
 package com.puchen.java.flink117.p12sql;
 
-import com.atguigu.bean.WaterSensor;
+
+import com.puchen.java.flink117.bean.WaterSensor;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
